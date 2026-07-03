@@ -1,0 +1,54 @@
+# =============================================================================
+# VFX (Video Flow X-Downloader) — requirements.txt
+# Python 3.11+
+#
+# Install:
+#   pip install -r requirements.txt
+#
+# FFmpeg is NOT a Python package — it must be installed separately and be
+# discoverable on the system PATH. VFX self-checks for it at startup
+# (see utils/system_check.py) and will guide you through installation
+# if it's missing.
+# =============================================================================
+
+# ---- Download Engine --------------------------------------------------------
+yt-dlp>=2024.12.13                 # Core video/audio extraction & download engine
+ffmpeg-python>=0.2.0               # Thin Pythonic wrapper around FFmpeg CLI calls
+
+# ---- Spotify Integration ----------------------------------------------------
+spotipy>=2.24.0                    # Official Spotify Web API client (playlist/track metadata)
+
+# ---- Terminal UI / UX -------------------------------------------------------
+rich>=13.9.4                       # Tables, live progress bars, panels, styled text
+questionary>=2.0.1                 # Interactive arrow-key / checkbox terminal menus
+prompt_toolkit>=3.0.48             # Backing library for questionary (explicit pin avoids resolver drift)
+
+# ---- Configuration & Environment --------------------------------------------
+python-dotenv>=1.0.1               # Loads Spotify credentials from .env when present
+pydantic>=2.9.2                    # Schema validation for config.json (catches bad config early)
+
+# ---- Metadata / Tagging -----------------------------------------------------
+mutagen>=1.47.0                    # ID3 / MP4 / FLAC tag + embedded artwork writer
+
+# ---- Local Persistence (history / resume / duplicate-check) ----------------
+tinydb>=4.8.2                      # Lightweight JSON-document local DB for download history
+
+# ---- Cookie-Based Authentication (age-restricted / private content) -------
+# Required by yt-dlp's --cookies-from-browser feature, AI Agent Directive item 2.
+pycryptodomex>=3.21.0               # Decrypts Chromium-based browser cookie stores (Windows/macOS)
+secretstorage>=3.3.3 ; sys_platform == 'linux'  # Decrypts via libsecret/keyring on Linux
+
+# ---- Networking / Async -----------------------------------------------------
+requests>=2.32.3                   # Thumbnail fetch, simple HTTP calls
+aiohttp>=3.10.10                   # Async HTTP for concurrent metadata/thumbnail fetches
+
+# ---- Utility -----------------------------------------------------------------
+python-slugify>=8.0.4              # Safe, predictable filenames across platforms
+tenacity>=9.0.0                    # Declarative retry/backoff for flaky network calls
+
+# =============================================================================
+# Dev-only (optional — uncomment if contributing):
+# black>=24.10.0
+# mypy>=1.13.0
+# pytest>=8.3.3
+# =============================================================================
