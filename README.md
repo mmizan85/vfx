@@ -82,7 +82,7 @@ Extract: Title, Artist, Tags                                                    
 
 | ⚙️ Control Panel (`--config`) | 📁 Download Summary Table |
 | :---: | :---: |
-| <img src="assets/config.png" width="400" alt="Control Panel Terminal UI"> | <img src="assets/summary.png" width="400" alt="Summary Table Visual"> |
+| <img src="assets/config.png" width="400" alt="Control Panel Terminal UI"> | <img src="assets/summar.png" width="400" alt="Summary Table Visual"> |
 
 ---
 
