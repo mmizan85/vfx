@@ -2,7 +2,7 @@
 # ⚡ vfx (Video Flow X-Downloader)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mmizan85/vfx/main/app_icon.icon" alt="vfx Logo" width="220">
+  <img src="https://github.com/mmizan85/vfx/blob/main/assets/app_icon.ico" alt="vfx Logo" width="110">
 </p>
 
 <p align="center">
@@ -41,18 +41,17 @@ The core framework of `vfx` is structured to ensure maximum crash resistance and
 
 
 ```text
-
 [User Input URL] ➔ [vfx Core Engine] ➔ Regex Validation
 │
 ┌─────────────────────┴─────────────────────┐
-▼                                                                                                                         ▼
-[Spotify Link Detected]                                                                             [Direct Video Link]
-│                                                                                                                           │
-[Spotipy API Module]                                                                               [yt-dlp core engine]
-│                                                                                                                           │
-Extract: Title, Artist, Tags                                                                                     │
-│                                                                                                                            │
-(Auto Search)                                                                                                        ▼
+▼                                           ▼
+[Spotify Link Detected]                    [Direct Video Link]
+│                                           │
+[Spotipy API Module]                       [yt-dlp core engine]
+│                                           │
+Extract: Title, Artist, Tags                │
+│                                           │
+(Auto Search)                               ▼
 [yt-dlp Core] ◄─────────────────────────── Download Source File
 │
 ▼
@@ -60,7 +59,6 @@ Extract: Title, Artist, Tags                                                    
 │
 ▼
 [Final File Output] ➔ Auto Folder Isolation & Smart History Check
-
 ```
 
 ### 🧰 Powered By:
@@ -94,7 +92,7 @@ You can install and use `vfx` using either of the two methods below:
 
 Perfect for general users. No need to install Python, FFmpeg, or manage paths manually:
 
-1. Go to the **Releases** section on the right side of this GitHub page and download `vfx_setup_v1.0.0.exe`.
+1. Go to the [**Releases**](https://github.com/mmizan85/vfx/releases/download/v1.0.0/vfx_setup_v1.0.0.exe) section on the right side of this GitHub page and download `vfx_setup_v1.0.0.exe`.
 2. Run the installer wizard and follow the on-screen instructions.
 3. **Crucial:** Make sure to check the box that says **"Add VFX to System PATH"** during installation.
 4. Open a fresh terminal window (Command Prompt or PowerShell) and run: `vfx --help`
