@@ -76,7 +76,7 @@ Extract: Title, Artist, Tags                │
 
 | 📱 Main Menu & Layout | 📊 Live Progress Bar |
 | :---: | :---: |
-| <img src="https://github.com/mmizan85/vfx/blob/main/assets/mainMenu.png" width="400" alt="Main CLI Menu"> | <img src="./vfx/assets/progressBar.png" width="400" alt="Live Progress Animation"> |
+| <img src="https://github.com/mmizan85/vfx/blob/main/assets/mainMenu.png" width="400" alt="Main CLI Menu"> | <img src="https://github.com/mmizan85/vfx/blob/main/assets/progressBar.png" width="400" alt="Live Progress Animation"> |
 
 | ⚙️ Control Panel (`--config`) | 📁 Download Summary Table |
 | :---: | :---: |
