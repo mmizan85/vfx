@@ -2,7 +2,7 @@
 # ⚡ vfx (Video Flow X-Downloader)
 
 <p align="center">
-  <img src="assets/appIcon.icoo" alt="vfx Logo" width="110">
+  <img width="120" height="120" alt="vfx_icon1" src="https://github.com/user-attachments/assets/30b73482-6593-4092-8c15-b6610f1862c7" />
 </p>
 
 <p align="center">
@@ -76,11 +76,12 @@ Extract: Title, Artist, Tags                │
 
 | 📱 Main Menu & Layout | 📊 Live Progress Bar |
 | :---: | :---: |
-| <img src="https://github.com/mmizan85/vfx/blob/main/assets/mainMenu.png" width="400" alt="Main CLI Menu"> | <img src="https://github.com/mmizan85/vfx/blob/main/assets/progressBar.png" width="400" alt="Live Progress Animation"> |
+| <img width="500"  alt="main_menu" src="https://github.com/user-attachments/assets/3b950705-a088-4edb-90ac-08fafa6c3a30" /> | <img width="500" alt="progress_bar" src="https://github.com/user-attachments/assets/e50ac83a-204d-4f63-a452-be85fe072e7d" /> |
 
 | ⚙️ Control Panel (`--config`) | 📁 Download Summary Table |
 | :---: | :---: |
-| <img src="assets/config.png" width="400" alt="Control Panel Terminal UI"> | <img src="assets/summar.png" width="400" alt="Summary Table Visual"> |
+| <img width="500"  alt="config" src="https://github.com/user-attachments/assets/fadc117f-9ed2-449e-94e2-c51697c36ce8" /> |  <img width="500" alt="summar" src="https://github.com/user-attachments/assets/95c3b61e-9f53-4f61-ab77-108be6ad3210" />
+ |
 
 ---
 
