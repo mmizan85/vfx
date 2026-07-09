@@ -2,7 +2,8 @@
 # ⚡ vfx (Video Flow X-Downloader)
 
 <p align="center">
-  <img width="120" height="120" alt="vfx_icon1" src="https://github.com/user-attachments/assets/30b73482-6593-4092-8c15-b6610f1862c7" />
+  <img width="120" alt="vfx_icon01" src="https://github.com/user-attachments/assets/b9f831a9-0441-4fb1-8bc0-65365e7bcfd5" />
+
 </p>
 
 <p align="center">
@@ -80,8 +81,7 @@ Extract: Title, Artist, Tags                │
 
 | ⚙️ Control Panel (`--config`) | 📁 Download Summary Table |
 | :---: | :---: |
-| <img width="500"  alt="config" src="https://github.com/user-attachments/assets/fadc117f-9ed2-449e-94e2-c51697c36ce8" /> |  <img width="500" alt="summar" src="https://github.com/user-attachments/assets/95c3b61e-9f53-4f61-ab77-108be6ad3210" />
- |
+| <img width="500"  alt="config" src="https://github.com/user-attachments/assets/fadc117f-9ed2-449e-94e2-c51697c36ce8" /> |  <img width="500" alt="summar" src="https://github.com/user-attachments/assets/95c3b61e-9f53-4f61-ab77-108be6ad3210" /> |
 
 ---
 
