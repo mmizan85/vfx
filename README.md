@@ -2,7 +2,7 @@
 # ⚡ vfx (Video Flow X-Downloader)
 
 <p align="center">
-  <img src="https://github.com/mmizan85/vfx/blob/main/assets/app_icon.ico" alt="vfx Logo" width="110">
+  <img src="./vfx/assets/app_icon.ico" alt="vfx Logo" width="110">
 </p>
 
 <p align="center">
@@ -76,7 +76,7 @@ Extract: Title, Artist, Tags                │
 
 | 📱 Main Menu & Layout | 📊 Live Progress Bar |
 | :---: | :---: |
-| <img src="assets/main_menu.png" width="400" alt="Main CLI Menu"> | <img src="assets/progress_bar.png" width="400" alt="Live Progress Animation"> |
+| <img src="https://github.com/mmizan85/vfx/blob/main/assets/main_menu.png" width="400" alt="Main CLI Menu"> | <img src="./vfx/assets/progress_bar.png" width="400" alt="Live Progress Animation"> |
 
 | ⚙️ Control Panel (`--config`) | 📁 Download Summary Table |
 | :---: | :---: |
